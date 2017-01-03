@@ -8,3 +8,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+@media all and (orientation: portrait) {
+  /*  styles for portrait/upright screen*/
+  h1 {
+    font-size: 3em;
+  }
+}
+@media all and (orientation: landscape) {
+  /* styles for landscape screen */
+  h1 {
+    font-size: .5em;
+  }
+}
