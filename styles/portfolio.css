@@ -1,5 +1,5 @@
-/*img {
-  max-width: 100%
+/** {
+  outline: 1px solid green;
 }*/
 html {
   background: url("../img/susitna.jpg") no-repeat center center fixed;
@@ -7,16 +7,56 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: rgba(20, 20, 20, 1);
 }
+body {
+  font-family: 'Advent Pro', sans-serif;
+  width: 100%;
+}
+header {
+  height: 4em;
+  margin: 0;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, .5);
+}
+header a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10%;
+}
+a:link {
+  color: rgba(0, 0, 0, 0.8);
+}
+aside {
+  min-height: 1px;
+  width: 10%;
+  float: left;
+}
+main {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  float: left;
+  font-size: 2em;
+}
+nav {
+  color: rgba(0, 0, 0, 0.5);
+  width: 10%;
+  float: left;
+}
+
+img {
+  display: block;
+  margin: 1.2em auto;
+}
+
 @media all and (orientation: portrait) {
   /*  styles for portrait/upright screen*/
-  h1 {
-    font-size: 3em;
-  }
+
 }
 @media all and (orientation: landscape) {
   /* styles for landscape screen */
-  h1 {
-    font-size: .5em;
-  }
+
 }
