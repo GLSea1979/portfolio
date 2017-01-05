@@ -1,17 +1,15 @@
 /** {
   outline: 1px solid green;
 }*/
-html {
+body {
   background: url("../img/susitna.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: rgba(20, 20, 20, 1);
-}
-body {
   font-family: 'Advent Pro', sans-serif;
-  width: 100%;
+  width: 90%;
 }
 header {
   height: 4em;
@@ -21,10 +19,22 @@ header {
   border-radius: 7px;
   background-color: rgba(255, 255, 255, .5);
 }
-.heads {
+#headA {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, .5);
+  height: 100%;
+  text-align: center;
+  display: inline-block;
   width: 50%;
   float: left;
 }
+#headB {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
 header a {
   text-decoration: none;
   display: inline-block;
