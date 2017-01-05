@@ -8,3 +8,8 @@ function Project(options) {
   this.collaborators = options.collaborators;
   this.description = options.description;
 }
+Project.prototype.toHtml = function() {
+  var $newProject = $('article.projecttemplate').clone().removeClass('projecttemplate');
+  $newProject.attr('data-category', this.category);
+  $newProject.find('h1:first').text(this.title);
+}
