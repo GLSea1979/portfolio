@@ -1,0 +1,39 @@
+.outerContainer {
+  width: 100%;
+  height: 1000px;
+  background-color: grey;
+}
+.innerContainer {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: green;
+}
+header {
+  height: 5%;
+  background-color: cyan;
+}
+.alpha {
+  width: 10%;
+  float: left;
+  height: 90%;
+  background-color: magenta;
+}
+main {
+  width: 80%;
+  float: left;
+  height: 90%;
+  background-color: blue;
+}
+.beta {
+  width: 10%;
+  float: left;
+  height: 90%;
+  background-color: magenta;
+}
+section {
+  width: 100%;
+  margin: 30px 0;
+  background-color: red;
+  height: 15%;
+}

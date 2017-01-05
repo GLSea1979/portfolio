@@ -1,15 +1,19 @@
-/** {
+* {
   outline: 1px solid green;
-}*/
+}
 body {
+
+  color: rgba(20, 20, 20, 1);
+  font-family: 'Advent Pro', sans-serif;
+  width: 100%;
+}
+#container {
   background: url("../img/susitna.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: rgba(20, 20, 20, 1);
-  font-family: 'Advent Pro', sans-serif;
-  width: 90%;
+  width: 80%;
 }
 header {
   height: 4em;
@@ -29,6 +33,7 @@ header {
   float: left;
 }
 #headB {
+  height: 100%;
   text-align: center;
   display: inline-block;
   width: 50%;
@@ -54,6 +59,10 @@ main {
   width: 80%;
   float: left;
   font-size: 2em;
+}
+section {
+  background-color: rgba(255, 255, 255, .5);
+  min-height: 10%;
 }
 nav {
   color: rgba(0, 0, 0, 0.5);
