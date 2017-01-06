@@ -23,5 +23,4 @@
     collaborators: false,
     description: '<h2>Cookie Stand</h2><p>This project was about making a website for a fictional Salmon Cookie Company, located in Seattle.</p>'
   }
-
 ]
