@@ -1,15 +1,24 @@
-var projectArray = [];
 
-function Project(options) {
-  this.title = options.title;
-  this.category = options.category;
-  this.cfClass = options.cfClass;
-  this.projectUrl = options.projectUrl;
-  this.collaborators = options.collaborators;
-  this.description = options.description;
-}
-Project.prototype.toHtml = function() {
-  var $newProject = $('article.projecttemplate').clone().removeClass('projecttemplate');
-  $newProject.attr('data-category', this.category);
-  $newProject.find('h1:first').text(this.title);
-}
+var neighborhoods = [];
+
+function Neighborhood (opts) {
+  for (key in opts) {
+    this[key] = opts[key];
+  }
+};
+
+Neighborhood.prototype.toHtml = function() {
+ // TODO: Complete this using Handlebars!!!
+ var source = $('#neighborhood-template').html();
+ var templateRender = Handlebars.compile(source);
+ var context = neighborhoods;
+ return templateRender(this);
+};
+
+projectSource.forEach(function(neighborhoodObject) {
+  neighborhoods.push(new Neighborhood(neighborhoodObject));
+});
+
+neighborhoods.forEach(function(ourNewNeighborhoodObject){
+  $('#neighborhoods').append(ourNewNeighborhoodObject.toHtml());
+});

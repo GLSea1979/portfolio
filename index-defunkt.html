@@ -1,23 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Projects</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <script id="neighborhood-template" type="text/x-handlebars-template">
-      <section>
-        <p>{{{description}}}</p>
-      </section>
-    </script> -->
+    <title>Gary Lundgren</title>
   </head>
   <body>
     <div id="container">
-
       <header>
         <div id="headA">
           <h5><a href="#">Projects</a></h5>
@@ -26,19 +17,35 @@
           <h5><a href="#">Life<a></h5>
         </div>
 
-        <section class="heading-group-h1">
-          <h1>
-            Projects
-          </h1>
-        </section>
       </header>
       <aside class="">
         <div class="">
-
         </div>
       </aside>
       <main>
-        <section id="neighborhoods"></section>
+        <section>
+          <h1>Gary Lundgren</h1>
+          <h2>Developer</h2>
+        </section>
+        <section>
+          <article class="projecttemplate" data-category="placeholder-category">
+            <header>
+              <h3>Title</h3>
+              <div class="byline">
+                By <address><a href="">Author Name</a></address>
+                published <time pubdate datetime="2000-01-01">Publish Time</time>
+              </div>
+            </header>
+            <section class="article-body"></section>
+            <a href="#" class="read-on">Read on &rarr;</a>
+          </article>
+        </section>
+        <section>
+          e
+        </section>
+        <section>
+          d
+        </section>
       </main>
       <nav>
         <a target="_blank" href="https://www.linkedin.com/in/gary-lundgren-seattle"><img src="img/social.png"></a>
@@ -47,14 +54,7 @@
         <a href="mailto:builtbygl@gmail.com"><img src="img/close-envelope.png"></a>
       </nav>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-    <script type="text/javascript">
-      $.backstretch("../portfolio/img/susitna.jpg", {speed: 150});
-    </script>
-    <script src="scripts/projectdata.js"></script>
-    <script src="scripts/app.js"></script>
-
+    <script type="text/javascript" src="portfolio.js"></script>
   </body>
 </html>
