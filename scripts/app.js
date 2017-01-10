@@ -1,24 +1,22 @@
+// 'use strict'
+var projects = [];
 
-var neighborhoods = [];
-
-function Neighborhood (opts) {
+function Project (opts) {
   for (key in opts) {
     this[key] = opts[key];
   }
+}
+
+Project.prototype.toHtml = function() {
+  var source = $('#project-template').html();
+  var templateRender = Handlebars.compile(source);
+  return templateRender(this);
 };
 
-Neighborhood.prototype.toHtml = function() {
- // TODO: Complete this using Handlebars!!!
- var source = $('#neighborhood-template').html();
- var templateRender = Handlebars.compile(source);
- var context = neighborhoods;
- return templateRender(this);
-};
-
-projectSource.forEach(function(neighborhoodObject) {
-  neighborhoods.push(new Neighborhood(neighborhoodObject));
+projectSource.forEach(function(projectObject) {
+  projects.push(new Project(projectObject));
 });
 
-neighborhoods.forEach(function(ourNewNeighborhoodObject){
-  $('#neighborhoods').append(ourNewNeighborhoodObject.toHtml());
+projects.forEach(function(ourNewProjectObject){
+  $('#projects').append(ourNewProjectObject.toHtml());
 });
