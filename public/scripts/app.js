@@ -1,5 +1,6 @@
 // 'use strict'
 var projects = [];
+var key = 0;
 
 function Project (opts) {
   for (key in opts) {
