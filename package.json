@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "a basic server for my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLSea1979/portfolio.git"
+  },
+  "keywords": [
+    "gary",
+    "portfolio"
+  ],
+  "author": "Gary Lundgren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GLSea1979/portfolio/issues"
+  },
+  "homepage": "https://github.com/GLSea1979/portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
