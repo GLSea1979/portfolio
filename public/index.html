@@ -17,14 +17,23 @@
     </script>
   </head>
   <body>
+    <!-- <ul class="navigation">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">Home</a></li>
+    </ul>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for=nav-trigger""></label> -->
     <div id="container">
 
-      <header>
+      <header  class="main-nav">
         <div id="headA">
-          <h5><a href="#">Projects</a></h5>
+          <h5 class="tab" data-content="projects"><a href="#">Projects</a></h5>
         </div>
         <div id="headB">
-          <h5><a href="#">Life<a></h5>
+          <h5 class="tab" data-content="life"><a href="#">Life<a></h5>
         </div>
 
         <section class="heading-group-h1">
@@ -33,14 +42,17 @@
           </h1>
         </section>
       </header>
-      <aside class="">
-        <div class="">
-
-        </div>
+      <aside class="page-nav">
+        <ul>
+          <li class="notes" data-content="articles"><a href="#" class="">Articles</a></li>
+          <li class="notes" data-content="about"><a href="#" class="">About Me</a></li>
+        </ul>
       </aside>
+
       <main>
-        <section id="projects"></section>
+        <section id="projects" class="project-content"></section>
       </main>
+
       <nav>
         <a target="_blank" href="https://www.linkedin.com/in/gary-lundgren-seattle"><img src="img/social.png"></a>
         <a target="_blank" href="https://github.com/GLSea1979"><img src="img/github-sign.png"></a>
