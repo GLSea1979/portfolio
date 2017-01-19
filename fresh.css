@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: blue;
+}
+div {
+  height: 2em;
+  width: 2em;
+  background-color: red;
+}
