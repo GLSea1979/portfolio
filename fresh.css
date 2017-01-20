@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 
-body {
+#outsideContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: blue;
 }
-div {
-  height: 2em;
-  width: 2em;
+#insideContainer {
+  height: 80%;
+  width: 80%;
   background-color: red;
 }

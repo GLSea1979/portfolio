@@ -17,55 +17,45 @@
       </section>
     </script>
   </head>
+
   <body>
-    <!-- <ul class="navigation">
-      <li class="nav-item"><a href="#">Home</a></li>
-      <li class="nav-item"><a href="#">Home</a></li>
-      <li class="nav-item"><a href="#">Home</a></li>
-      <li class="nav-item"><a href="#">Home</a></li>
-      <li class="nav-item"><a href="#">Home</a></li>
-    </ul>
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <label for=nav-trigger""></label> -->
-    <div class="outterDiv">
+    <div id="outerDiv">
+      <div id="container">
 
+        <header  class="main-nav">
+          <div id="headA">
+            <h5 class="tab" data-content="projects">Gary Lundgren</h5>
+          </div>
+          <div id="headB">
+            <h5 class="tab" data-content="life">Developer</h5>
+          </div>
 
-    <div id="container">
+          <section class="heading-group-h1">
+            <h1>
+              Projects
+            </h1>
+          </section>
+        </header>
+        <aside class="page-nav">
+          <ul>
+            <li class="notes" data-content="home"><a href="./">Home</a></li>
+            <li class="notes" data-content="articles"><a href="/articles">Articles</a></li>
+            <li class="notes" data-content="about"><a href="/about">About Me</a></li>
+          </ul>
+        </aside>
 
-      <header  class="main-nav">
-        <div id="headA">
-          <h5 class="tab" data-content="projects">Gary Lundgren</h5>
-        </div>
-        <div id="headB">
-          <h5 class="tab" data-content="life">Developer</h5>
-        </div>
+        <main>
+          <section id="projects" class="project-content"></section>
+        </main>
 
-        <section class="heading-group-h1">
-          <h1>
-            Projects
-          </h1>
-        </section>
-      </header>
-      <aside class="page-nav">
-        <ul>
-          <li class="notes" data-content="home"><a href="./">Home</a></li>
-          <li class="notes" data-content="articles"><a href="/articles">Articles</a></li>
-          <li class="notes" data-content="about"><a href="/about">About Me</a></li>
-        </ul>
-      </aside>
-
-      <main>
-        <section id="projects" class="project-content"></section>
-      </main>
-
-      <nav>
-        <a target="_blank" href="https://www.linkedin.com/in/gary-lundgren-seattle"><img src="img/social.png"></a>
-        <a target="_blank" href="https://github.com/GLSea1979"><img src="img/github-sign.png"></a>
-        <a target="_blank" href="http://www.facebook.com/gary.lundgren.545"><img src="img/facebook-logo.png"></a>
-        <a href="mailto:builtbygl@gmail.com"><img src="img/close-envelope.png"></a>
-      </nav>
-    </div>
-    <!-- end container div -->
+        <nav>
+          <a target="_blank" href="https://www.linkedin.com/in/gary-lundgren-seattle"><img src="img/social.png"></a>
+          <a target="_blank" href="https://github.com/GLSea1979"><img src="img/github-sign.png"></a>
+          <a target="_blank" href="http://www.facebook.com/gary.lundgren.545"><img src="img/facebook-logo.png"></a>
+          <a href="mailto:builtbygl@gmail.com"><img src="img/close-envelope.png"></a>
+        </nav>
+      </div>
+      <!-- end container div -->
     </div>
     <!-- end outterDiv -->
 
@@ -74,7 +64,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script type="text/javascript">
-      // $.backstretch("img/susitna.jpg", {speed: 150});
+       $('#container').backstretch("img/susitna.jpg", {speed: 150});
     </script>
     <script src="scripts/projectdata.js"></script>
     <script src="scripts/app.js"></script>
