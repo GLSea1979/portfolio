@@ -1,7 +1,8 @@
 change icons to style able type
-make wireframes for site and side pages
+*****make wireframes for site and side pages
 make nav responsive -- needs to hide in mobile and appear when click hamburger (need a hamburger menu)
 display more recent work/article on top and add a timestamp for how long ago created
 use jQuery
 home and about nav links to act as tabs, use jquery to hide everything but selected material
- 
+
+I want to be able to select a project to view and have it pop up on the screen with no others visible.
