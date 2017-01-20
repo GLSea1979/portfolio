@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body #outerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  
+  width: 85%;
+  height: 85%;
+  background-color: grey;
+}
+header {
+  height: 4em;
+  margin: 0;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, .5);
+}
+#headA {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, .5);
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+#headB {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
