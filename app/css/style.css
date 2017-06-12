@@ -65,3 +65,8 @@ header>div {
 .slide:nth-of-type(5) {
   background: purple;
 }
+
+.screenshot {
+  width: 300px;
+  height: 100px;
+}
