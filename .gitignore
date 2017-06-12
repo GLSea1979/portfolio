@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Created by https://www.gitignore.io/api/monodevelop,vim,node,windows,archlinuxpackages
 
@@ -123,6 +124,8 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/monodevelop,vim,node,windows,archlinuxpackages
 =======
+=======
+>>>>>>> 3323a1edbeeb7b504f6fa8a589138aa5712734c8
 # Logs
 logs
 *.log
@@ -182,4 +185,7 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
+>>>>>>> 3323a1edbeeb7b504f6fa8a589138aa5712734c8
+=======
 >>>>>>> 3323a1edbeeb7b504f6fa8a589138aa5712734c8
