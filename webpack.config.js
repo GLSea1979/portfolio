@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js",
-    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "test-watch": "./node_modules/karma/bin/karma start",
+    "test": "./node_modules/karma/bin/karma start --single-run"
   },
   "keywords": [],
   "author": "Gary Lundgren",
@@ -37,6 +39,12 @@
     "webpack": "^2.3.2"
   },
   "devDependencies": {
+    "angular-mocks": "^1.6.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.3",
     "webpack-dev-server": "^2.4.2"
   }
 }
