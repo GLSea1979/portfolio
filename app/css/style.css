@@ -1,31 +1,42 @@
-/** {
+* {
   outline: 1px solid grey;
-}*/
-body {
-  background-color: #fff;
 }
-.logo {
+body {
+  background-color: #f6f6f6;
+  color: #000;
+}
+div>span {
+  display: inline-block;
+  background: red;
+  width: 70%;
+  margin-left: 3%;
   font: 11em Georgia;
   /*margin-left: 2%;*/
   text-transform: uppercase;
   text-decoration: none;
 }
+h1, p {
+  width: 20%;
+  margin: 0 auto;
+}
 header>div {
   diplay: inline-block;
   width: 30%;
   float: left;
-  margin: 0 auto;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
 }
 .clearfix {
   clear: both;
 }
 #slides {
   position: relative;
-  width: 100%;
+  width: 300px;
   height: 300px;
   padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
   list-style-type: none;
+
 }
 .slide {
   position: absolute;
@@ -36,37 +47,42 @@ header>div {
   opacity: 0;
   z-index: 1;
   font-size: 40px;
-  padding: 40px;
+  padding: 10px;
+  background: #808080;
   box-sizing: border-box;
   background: #333;
   color: #fff;
 
-  -webkit-transition: opacity 2s;
-  -moz-transition: opacity 2s;
-  -o-transition: opacity 2s;
-  transition: opacity 2s;
+  -webkit-transition: opacity 4s;
+  -moz-transition: opacity 4s;
+  -o-transition: opacity 4s;
+  transition: opacity 4s;
 }
 .showing {
   opacity: 1;
   z-index: 2;
 }
 .slide:nth-of-type(1) {
-  background: red;
+  /*background: red;*/
 }
 .slide:nth-of-type(2) {
-  background: orange;
+  /*background: orange;*/
 }
 .slide:nth-of-type(3) {
-  background: green;
+  /*background: green;*/
 }
 .slide:nth-of-type(4) {
-  background: grey;
+  /*background: grey;*/
 }
 .slide:nth-of-type(5) {
-  background: purple;
+  /*background: purple;*/
 }
 
 .screenshot {
-  width: 300px;
+  width: 250px;
   height: 100px;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
