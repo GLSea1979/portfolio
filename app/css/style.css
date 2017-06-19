@@ -6,7 +6,10 @@
 ## sea-green: #9abd97
 ## pale-mint-green: #b6d7b9 */
 
-
+* {
+  box-sizing: border-box;
+  outline: 1px grey solid;
+}
 body {
   width: 100%;
   background-color: #f7ffe0;
@@ -18,11 +21,17 @@ header {
   margin: 1.5vw auto;
   height: 10vw;
 }
-header div,nav {
+main {
+  width: 92%;
+  margin: 0 auto;
+}
+header div {
+  padding: 2vw 1vw;
   display: inline-block;
   width: 30%;
 }
 .logo-container {
+  /*height: 10vw;*/
   font-family:'Cinzel', serif;
   font-size: 3vw;
   text-transform: capitalize;;
@@ -30,58 +39,21 @@ header div,nav {
 }
 li {
   display: inline-block;
+  font-size: 2vw;
+  text-align: center;
 }
-.pic-container {
-  height: 25vw;
-  width: 70%;
-  margin: 2vw auto;
-  background: yellow;
+.project-container {
+  display: inline-block;
+  float: left;
+  height: 15vw;
+  width: 45vw;
+  margin: .5vw .25vw;
+  background: #9abd97;
 }
-#slides {
-  position: relative;
-  width: 13vw;
-  height: 13vw;
-  padding: 0px;
-  margin: 0.5vw auto;
-  list-style-type: none;
-
-}
-.slide {
-  position: absolute;
-  left: 0px;
-  top: 0px;
+main span {
+  display: inline-block;
   width: 100%;
-  height: 100%;
-  opacity: 0;
-  z-index: 1;
-  font-size: 40px;
-  /*padding: 10px;*/
-  background: #808080;
-  box-sizing: border-box;
-  background: #333;
-  color: #fff;
-
-  -webkit-transition: opacity 4s;
-  -moz-transition: opacity 4s;
-  -o-transition: opacity 4s;
-  transition: opacity 4s;
-}
-.showing {
-  opacity: 1;
-  z-index: 2;
-}
-.slide:nth-of-type(1) {
-  /*background: red;*/
-}
-.slide:nth-of-type(2) {
-  /*background: orange;*/
-}
-.slide:nth-of-type(3) {
-  /*background: green;*/
-}
-.slide:nth-of-type(4) {
-  /*background: grey;*/
-}
-.slide:nth-of-type(5) {
-  /*background: purple;*/
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0;
 }
