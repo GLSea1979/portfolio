@@ -1,41 +1,54 @@
-/*   #### Pallette:
-
+/*   ####Pallette
 ##  pale-cream:  #f7ffe0
 ##  grey: #818d92
 ##  brown: #483d03
 ## sea-green: #9abd97
-## pale-mint-green: #b6d7b9 */
+## pale-mint-green: #b6d7b9
+
+  */
 
 
+/** {
+  outline: 1px solid grey;
+}*/
 body {
-  width: 100%;
   background-color: #f7ffe0;
   color: #483d03;
 }
 header {
   background-color: #b6d7b9;
-  width: 92%;
-  margin: 1.5vw auto;
-  height: 10vw;
-}
-header div,nav {
-  display: inline-block;
-  width: 30%;
+  width: 100%;
+  height: 14vw;
 }
 .logo-container {
-  font-family:'Cinzel', serif;
-  font-size: 3vw;
+  width: 60%;
+  float: left;
+}
+.slide-container {
+  width: 30%;
+  float: left;
+}
+.title-container {
+  width: 100%;
+  clear: both;
+}
+div>span {
+  /*display: inline-block;*/
+  text-align: center;
+  width: 90%;
+  /*margin-left: 3%;*/
+  font: 5vw Georgia;
+  /*margin-left: 2%;*/
   text-transform: capitalize;;
   text-decoration: none;
 }
-li {
-  display: inline-block;
+h1, p {
+  width: 20%;
+  margin: 0 auto;
 }
-.pic-container {
-  height: 25vw;
-  width: 70%;
-  margin: 2vw auto;
-  background: yellow;
+
+.clearfix {
+  clear: both;
 }
 #slides {
   position: relative;
@@ -84,4 +97,13 @@ li {
 }
 .slide:nth-of-type(5) {
   /*background: purple;*/
+}
+
+.screenshot {
+  width: 250px;
+  height: 100px;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
