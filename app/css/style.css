@@ -18,7 +18,7 @@
 
 * {
   box-sizing: border-box;
-  /*outline: 1px grey solid;*/
+  outline: 1px grey solid;
 }
 body {
   width: 100%;
@@ -38,26 +38,31 @@ main {
 header div {
   padding: 2vw 1vw;
   display: inline-block;
-  width: 30%;
+  width: 25vw;
 }
 .logo-container {
-  /*height: 10vw;*/
+  margin: 1vw 0;
+  width: 40vw;
   font-family:'Cinzel', serif;
-  font-size: 3vw;
+  font-size: 3.5vw;
   text-transform: capitalize;;
   text-decoration: none;
+  text-align: center;
+}
+.me-container {
+
 }
 header li {
   display: inline-block;
   font-size: 2vw;
-  text-align: center;
+  margin-left: 2vw;
 }
 .project-container {
   display: inline-block;
   float: left;
   height: 15vw;
   width: 45vw;
-  margin-top: 1vw;
+  margin-top: 4vw;
   background: #ff4242;
   text-transform: capitalize;
 }
