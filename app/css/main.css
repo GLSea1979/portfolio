@@ -32,7 +32,7 @@ h3 {
   font-weight: 600;;
   font-size: .8em;
 }
-li {
+header li {
   display: inline-block;
   float: right;
   margin-left: .5vw;
@@ -57,5 +57,29 @@ span {
 p {
   margin: 1vw 0;
   font-weight: 100;
-  text-align: justify;
+  /*text-align: justify;*/
+}
+.me {
+  width: 23vw;
+  float: right;
+  height: 27vw;
+}
+img {
+  width: 100%;
+}
+footer {
+  width: 81vw;
+  margin: 0 auto;
+}
+.table {
+  display: table;
+  margin: 0 auto;
+}
+footer ul {
+  min-width: 696px;
+  list-style: none;
+}
+footer li {
+  display: inline;
+  font-size: 1.5em;
 }
