@@ -26,32 +26,39 @@ body {
   color: #272727;
 }
 header {
-  background-color: #ff4242;
+  /*background-color: #ff4242;*/
   width: 92vw;
   margin: 1.5vw auto;
   height: 10vw;
+}
+h3 {
+  text-align: center;
+  font-size: 3vw;
+  margin: 1.5 auto;
 }
 main {
   width: 92vw;
   margin: 0 auto;
 }
-header div {
+.link-container {
   padding: 2vw 1vw;
   display: inline-block;
-  width: 25vw;
+  width: 45vw;
+  float: left;
 }
 .logo-container {
-  margin: 1vw 0;
-  width: 40vw;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  /*margin: 1vw 0;*/
+  width: 45vw;
   font-family:'Cinzel', serif;
   font-size: 3.5vw;
   text-transform: capitalize;;
   text-decoration: none;
   text-align: center;
+  float: left;
 }
-.me-container {
 
-}
 header li {
   display: inline-block;
   font-size: 2vw;
