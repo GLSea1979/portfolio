@@ -37,10 +37,7 @@ function goToSlide(n) {
 
 // pauseButton.onclick = function() {
 //   if(playing === true) {
-//     pauseSlideshow();
-//   } else {
-//     playSlideshow();
-//   }
+
 // };
 
 next.onclick = function() {
