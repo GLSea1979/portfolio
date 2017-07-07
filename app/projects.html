@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
   </head>
   <body>
     <header>
@@ -23,7 +24,7 @@
       </ul>
     </header>
     <main>
-      <div class="project-container left" id="fitomatic">
+      <!-- <div class="project-container left" id="fitomatic">
         <a href="http://www.fitomatic.bike" target="blank" class="dropdown">
 
           <img src="img/fit-O-matic.png" alt="">
@@ -38,7 +39,7 @@
             </ul>
           </div>
         </a>
-      </div>
+      </div> -->
       <div class="project-container right" id="dronestrike">
         <a href="https://whendronesattack.herokuapp.com/" target="blank" class="dropdown">
           <span class="project-name" >drone strike</span>
@@ -83,18 +84,18 @@
         </a>
       </div>
       <div class="project-container left">
-        <a href="projects/bus/index.html" target="blank" class="dropdown">
-          <span class="project-name">bus mall</span>
-          <div class="dropdown-content">
-            <ul id="busmall">Description:
-              <li>A group project with Cayla and Zach Crumbo.</li>
-              <li>Backend is a full crud API built with Node.js, Express and MongoDB</li>
-              <li>Frontend is built with Angular 1.5</li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-        </a>
+        <div class="slide-container">
+          <ul id="slides">
+            <li class="slide showing"><img src="img/flower1.jpg" alt=""></li>
+            <li class="slide"><img src="img/flower2.jpg" alt=""></li>
+            <li class="slide"><img src="img/flower3.jpg" alt=""></li>
+            <li class="slide"><img src="img/flower4.jpg" alt=""></li>
+            <li class="slide"><img src="img/flower5.jpg" alt=""></li>
+          </ul>
+        </div>
+        <button class="controls" id="pause">pause</button>
+        <button class="controls" id="next">Next</button>
+        <button class="controls" id="previous">Previous</button>
       </div>
       <div class="project-container right">
         <a href="projects/bus/index.html" target="blank" class="dropdown">

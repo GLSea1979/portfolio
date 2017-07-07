@@ -8,46 +8,46 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/slide.css">
+
   </head>
   <body>
     <header>
-      <div class="logo-container"><span>gary lundgren</span></div>
+      <h2>gary lundgren</h2>
+      <h3>developer : coder : dad</h3>
+      <ul>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="slide.html">slides</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </header>
+
+    <div class="main-container">
       <div class="slide-container">
         <ul id="slides">
           <li class="slide showing"><img src="img/flower1.jpg" alt=""></li>
-          <li class="slide"><img src="img/flower2.jpg" alt=""></li>
+          <li class="slide">
+            <img src="img/flower2.jpg" alt="">
+            <p>Here is some content</p>
+            <p>lets see what it does</p>
+            <p>to our code</p>
+          </li>
           <li class="slide"><img src="img/flower3.jpg" alt=""></li>
           <li class="slide"><img src="img/flower4.jpg" alt=""></li>
           <li class="slide"><img src="img/flower5.jpg" alt=""></li>
         </ul>
       </div>
-      <div class="title-bar">
-        <h1 id="title">Developer</h1>
-      </div>
-    </header>
-    <div class="main-container">
       <div id="main" class="wrapper clearfix">
         <section>
-          <div class="section headline">
-            <h2>Responsive</h2>
-            <p>This is an area to talk about stuff</p>
-          </div>
+          <nav>
+            <button class="controls" id="previous">Previous</button>
+            <button class="controls" id="next">Next</button>
+          </nav>
         </section>
-        <section>
-          <div class="">
-            <nav>
-              <ul>
-                <li><a href="#"></a>Websites</li>
-                <li><a href="#">
-                  <img class="screenshot" src="img/fit.png" alt="">
-                </a>SPA's</li>
-                <li><a href="#"></a>API's</li>
-              </ul>
-            </nav>
-          </div>
-        </section>
-
+        <div class="move">
+          <p><a href="index.html">home</a></p>
+        </div>
       </div> <!-- end main -->
     </div> <!-- end main container -->
     <footer>
@@ -58,7 +58,7 @@
       </ul>
     </footer>
   </body>
-  <script type="text/javascript" src="app.js">
+  <script type="text/javascript" src="scripts/slideit.js">
 
   </script>
 </html>
