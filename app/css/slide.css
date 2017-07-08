@@ -1,11 +1,7 @@
-
-
-
 .slide-container {
   width: 30%;
   float: left;
 }
-.
 div>span {
   /*display: inline-block;*/
   text-align: center;
@@ -20,7 +16,6 @@ h1, p {
   width: 20%;
   margin: 0 auto;
 }
-
 .clearfix {
   clear: both;
 }
@@ -75,6 +70,7 @@ h1, p {
 .projectbox {
   display: inline-block;
   width: 50%;
+  height: 100%;
   float: left;
 }
 img {
