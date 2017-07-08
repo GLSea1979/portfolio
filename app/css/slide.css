@@ -3,12 +3,9 @@
   float: left;
 }
 div>span {
-  /*display: inline-block;*/
   text-align: center;
   width: 90%;
-  /*margin-left: 3%;*/
   font: 5vw Georgia;
-  /*margin-left: 2%;*/
   text-transform: capitalize;;
   text-decoration: none;
 }
@@ -67,10 +64,22 @@ h1, p {
 .slide:nth-of-type(5) {
   /*background: purple;*/
 }
+.projecttitle {
+  width: 100%;
+  height: 10%;
+}
+.projecttitle>span {
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 1.0);
+}
 .projectbox {
   display: inline-block;
   width: 50%;
-  height: 100%;
+  height: 90%;
   float: left;
 }
 img {
