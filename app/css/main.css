@@ -71,6 +71,7 @@ p {
   margin: 1vw 0;
   color: rgba(158, 158, 158, 1.0);
   font-size: 1.6em;
+  padding-top: .2em;
   /*text-align: justify;*/
 }
 .me {
