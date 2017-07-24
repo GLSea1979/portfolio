@@ -1,31 +1,10 @@
-/*body {
-  font: 900 120px/1 'Source Sans Pro', Arial, sans-serif;
-  background: #becccc;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  letter-spacing: -3px;
-  padding-top: 10%;
-}
 
-h1 {
-  position: absolute;
+.logo { font: 900 160px/1 'Source Sans Pro', Arial, sans-serif; background: #fff; text-transform: uppercase; color: #000; text-align: left; letter-spacing: -3px; padding-top: 2%; padding-left: 2%; }
+
+h6 {
+  /*position: absolute;
   top: 35%;
-  width: 100%;
-
-  text-shadow: 0 1px 0 hsl(174.5%, 80%),
-                0 2px 0 hsl(174.5%, 75%),
-                0 3px 0 hsl(174.5%, 70%),
-                0 5px 0 hsl(174.5%, 66%)
-}*/
-
-
-body { font: 900 120px/1 'Source Sans Pro', Arial, sans-serif; background: #fff; text-transform: uppercase; color: #000; text-align: center; letter-spacing: -3px; padding-top: 10%; }
-
-h1 {
-  position: absolute;
-  top: 35%;
-  width: 100%;
+  width: 100%;*/
 
   text-shadow:     0 1px 0 hsl(174,5%,80%),
                      0 2px 0 hsl(174,5%,75%),
