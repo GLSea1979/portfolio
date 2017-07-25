@@ -5,11 +5,12 @@ main {
 
 .project-container {
   display: inline-block;
+  outline: 1px solid rgba(158, 158, 158, 1.0);
   float: left;
   height: 15vw;
   width: 45vw;
   margin-top: 4vw;
-  background: #ff4242;
+  background: #fff;
   text-transform: capitalize;
   -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
@@ -73,12 +74,9 @@ main span {
   height: 5.5vw;
   width: 10vw;
 }
-#dronestrike {
-  background: #272727;
-}
+
 #dronestrike a {
   font-family: 'Orbitron', sans-serif;
-  color: red;
 }
 #dronestrike img {
   margin-left: 15vw;
