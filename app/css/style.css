@@ -11,6 +11,9 @@ main {
   margin-top: 4vw;
   background: #ff4242;
   text-transform: capitalize;
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 }
 .project-name {
   text-transform: capitalize;
@@ -21,6 +24,9 @@ main {
 }
 .right {
   margin-left: 1vw;
+}
+.shadow {
+
 }
 main span {
   display: inline-block;
@@ -43,9 +49,11 @@ main span {
     background-color: #d7dedc;
     width: 90%;
     border: 1px solid #274690;
-    /*border-radius: 10px;*/
+    -web-kit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 2px 5px;
+    line-height: 130%;
 }
 .dropdown-content li {
   display: block;
