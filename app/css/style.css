@@ -57,6 +57,7 @@ main span {
   background: white;
 }
 #fitomatic img{
+  width: 10vw;
   margin-left: 7.5vw;
   margin-top: 3.5vw;
 }
