@@ -1,5 +1,6 @@
 * {
   /*outline: 1px solid green;*/
+  box-sizing: border-box;
 }
 
 body {
@@ -69,7 +70,8 @@ span {
 p {
   margin: 1vw 0;
   color: rgba(158, 158, 158, 1.0);
-  font-size: 1.4em;
+  font-size: 1.6em;
+  padding-top: .2em;
   /*text-align: justify;*/
 }
 .me {
@@ -81,8 +83,9 @@ img {
   width: 100%;
 }
 footer {
+  clear: both;
   width: 81vw;
-  margin: 0 auto;
+  margin: 15em auto 0;
 }
 .table {
   display: table;
@@ -94,6 +97,8 @@ footer ul {
 }
 footer li {
   display: inline;
+  /*padding-left: 2%;*/
+  margin-left: 20%;
   font-size: 1.5em;
 }
 /* unvisited link */
