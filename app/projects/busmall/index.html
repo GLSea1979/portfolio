@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+    <title>Bus Mall Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bus Mall: Products of the Future!</h1>
+      <p>Please select the product you are most likely to purchase</p>
+    </header>
+    <fieldset id="selection">
+      <img id="left" src="" alt="what???">
+      <img id="center" src="" alt="Where is the pic?">
+      <img id="right" src="" alt="i think I am broken">
+    </fieldset>
+    <div id="choicebar">
+      <button id="results" type="button" name="button">Show/Hide the List</button>
+      <button id="chart" type="button" name="button">Show/Hide the Chart</button>
+    </div>
+    <div id="resultBox">
+      <ul id="piclist"></ul>
+      <div id="chartcontainer">
+        <canvas id="myChart" width="1100" height="400"></canvas>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
