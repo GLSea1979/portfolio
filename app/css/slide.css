@@ -14,11 +14,15 @@
   font-size: 1.1em;
   color: rgba(0, 0, 0, 1.0);
 }
+.projecttitle span {
+  margin-top: 1vw;
+}
 
 nav {
   height: 5vw;
   width: 100%;
   margin-left: 13vw;
+  margin-top: 1.2vw;
   clear: both;
 }
 .beta {
