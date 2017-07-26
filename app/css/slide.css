@@ -14,29 +14,26 @@
   font-size: 1.1em;
   color: rgba(0, 0, 0, 1.0);
 }
-/*.projecttitle>span {
-  text-align: center;
-  display: inline-block;
-  margin: 2vw auto;
 
-}*/
 nav {
   height: 5vw;
   width: 100%;
   margin-left: 13vw;
   clear: both;
 }
+.beta {
+  margin-left: 44vw;
+}
 
-#slides {
+#slides, #slidesEx, #slidesPhoto {
   position: relative;
   width: 60vw;
   height: 20vw;
   padding: 0px;
   margin: 0.5vw auto;
   list-style-type: none;
-
 }
-.slide {
+.slide, .slideEx, .slidePhoto{
   position: absolute;
   left: 0px;
   top: 0px;
@@ -53,7 +50,7 @@ nav {
   -o-transition: opacity 4s;
   transition: opacity 4s;
 }
-.showing {
+.showing, .showingEx, .showingPhoto {
   opacity: 1;
   z-index: 2;
 }
