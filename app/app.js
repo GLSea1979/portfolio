@@ -22,11 +22,9 @@ function goToSlide(n) {
 
 
 next.onclick = function() {
-  // pauseSlideshow();
   nextSlide();
 }
 
 previous.onclick = function() {
-  // pauseSlideshow();
   previousSlide();
 }
