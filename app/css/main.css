@@ -123,3 +123,11 @@ a:active {
     color: (158, 158, 158, 1.0);
     text-decoration: underline;
 }
+body {
+  /*background: blue;*/
+}
+@media only screen and (max-width: 800px) {
+    /*body {*/
+      /*background: orange;*/
+    /*}*/
+	}
