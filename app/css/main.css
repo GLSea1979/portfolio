@@ -16,7 +16,7 @@ header {
   height: 3vw;
 
 }
-h2 {
+header h2 {
   display: inline-block;
   text-transform: uppercase;;
   font-size: 1.1em;
@@ -32,7 +32,7 @@ h4 {
   text-transform: capitalize;
   margin: .2vw 0;
 }
-h3 {
+header h3 {
   display: inline-block;
   width: 27vw;
   float: left;
@@ -126,8 +126,6 @@ a:active {
 body {
   /*background: blue;*/
 }
-@media only screen and (max-width: 800px) {
-    /*body {*/
-      /*background: orange;*/
-    /*}*/
+@media only screen and (max-width: 1060px) {
+
 	}
