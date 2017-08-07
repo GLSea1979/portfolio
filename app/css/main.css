@@ -128,7 +128,9 @@ a:active {
   display: none;
 }
 
-
+#toggle-menu {
+  display: none;
+}
 
 
 @media only screen and (max-width: 1060px) {
@@ -169,9 +171,7 @@ a:active {
     padding: 2px 2px;
   }
 
-  #toggle-menu {
-    display: none;
-  }
+
   #toggle-menu:checked ~.primary-nav {
     display: block;
   }

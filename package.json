@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GLSea1979/portfolio/issues"
   },
-  "homepage": "https://github.com/GLSea1979/portfolio#readme"
+  "homepage": "https://github.com/GLSea1979/portfolio#readme",
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0"
+  }
 }
