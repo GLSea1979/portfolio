@@ -124,27 +124,20 @@ a:active {
     color: (158, 158, 158, 1.0);
     text-decoration: underline;
 }
+.menu-on,.menu-off {
+  display: none;
+}
+
+
+
 
 @media only screen and (max-width: 1060px) {
-  /*#toggle-menu {
-    display: inline-block;
-  }
   header h3 {
     display: none;
   }
-  header ul {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-  }
-  header li {
-    display: block;
-    clear: both;
-
-  }*/
   .menu-on {
-    background-color: #000;
+    display: block;
+    background: #000;
     color: #fff;
     position: fixed;
     right: 0;
@@ -153,7 +146,7 @@ a:active {
     padding: 10px;
   }
   .menu-off {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -173,15 +166,28 @@ a:active {
   .primary-nav li {
     color: #fff;
     display: block;
-    padding: 2px 2px
+    padding: 2px 2px;
   }
+
   #toggle-menu {
     display: none;
   }
-  #toggle-menu:checked ~ .primary-nav {
+  #toggle-menu:checked ~.primary-nav {
     display: block;
   }
   #toggle-menu:checked ~ .menu-off {
+    display: block;
+  }
+}
+@media screen and (min-width: 500px) {
+  .menu-on, .menu-off {
+    display: none;
+  }
+  .primary-nav {
+    display: block;
+    position: static;
+  }
+  .primary-nav li {
     display: block;
   }
 }
