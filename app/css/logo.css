@@ -1,11 +1,7 @@
 
 .logo { font: 900 160px/1 'Source Sans Pro', Arial, sans-serif; background: #fff; text-transform: uppercase; color: #000; text-align: left; letter-spacing: -3px; padding-top: 2%; padding-left: 2%; }
 
-h6 {
-  /*position: absolute;
-  top: 35%;
-  width: 100%;*/
-
+.logo h6 {
   text-shadow:     0 1px 0 hsl(174,5%,80%),
                      0 2px 0 hsl(174,5%,75%),
                      0 3px 0 hsl(174,5%,70%),
@@ -23,7 +19,7 @@ h6 {
                   0 20px 20px rgba(0,0,0,.3);
 }
 @media only screen and (max-width: 68.75em) {
-    h6 {
+    .logo h6 {
       display: none;
     }
 	}
