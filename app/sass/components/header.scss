@@ -21,3 +21,10 @@ header h3 {
   font-weight: 600;
   font-size: .8em;
 }
+header li {
+  display: inline-block;
+  float: right;
+  margin-left: .5vw;
+  font-size: 1em;
+  font-weight: 400;
+}
