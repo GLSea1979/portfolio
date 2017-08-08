@@ -1,9 +1,8 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
 body {
   width: 81vw;
   margin: 0 auto;
   box-sizing: border-box;
-  font-family: 'Cabin', serif;
-}
+  font-family: 'Cabin', serif; }
