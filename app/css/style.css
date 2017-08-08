@@ -14,6 +14,101 @@ header h2 {
   width: 22vw;
   float: left; }
 
+header h3 {
+  display: inline-block;
+  width: 27vw;
+  float: left;
+  font-weight: 600;
+  font-size: .8em; }
+
+.project-container {
+  display: inline-block;
+  outline: 1px solid #9e9e9e;
+  float: left;
+  height: 15vw;
+  width: 39vw;
+  margin-top: 4vw;
+  background: #fff;
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75); }
+
+.project-name {
+  text-transform: capitalize;
+  font-size: 2vw; }
+
+.left {
+  margin-right: 1vw; }
+
+.right {
+  margin-left: 1vw; }
+
+main span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 0; }
+
+.dropdown {
+  position: relative;
+  display: block; }
+
+.dropdown-content {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2em;
+  display: none;
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+  background-color: #fff;
+  width: 90%;
+  border: 1px solid #274690;
+  -web-kit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 2px 5px;
+  line-height: 130%; }
+
+.dropdown-content h5 {
+  margin-left: 10vw; }
+
+.dropdown-content li {
+  padding: 1px;
+  display: block; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+#fitomatic img {
+  width: 10vw;
+  margin-left: 14vw;
+  /*margin-top: 3.5vw;*/ }
+
+#dronestrike a {
+  font-family: 'Orbitron', sans-serif; }
+
+#dronestrike img {
+  margin-left: 14vw;
+  width: 12vw;
+  height: 5vw; }
+
+#busmall img {
+  margin-left: 15vw;
+  width: 8vw; }
+
+#adventure img {
+  width: 10vw;
+  margin-left: 13vw; }
+
+#glgram img {
+  width: 10vw;
+  margin-left: 14vw; }
+
+#buildpro img {
+  width: 10vw;
+  margin-left: 14vw; }
+
 * {
   /*outline: 1px solid green;*/
   box-sizing: border-box; }
@@ -29,13 +124,6 @@ h4 {
   letter-spacing: .6em;
   text-transform: capitalize;
   margin: .2vw 0; }
-
-header h3 {
-  display: inline-block;
-  width: 27vw;
-  float: left;
-  font-weight: 600;
-  font-size: .8em; }
 
 h5 {
   font-weight: 600;
