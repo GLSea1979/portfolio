@@ -1,18 +1,10 @@
-@import "layout/header.scss";
+@import "components/header.scss";
 
-@import "layout/projects.scss";
+@import "pages/projects.scss";
 
-* {
-  /*outline: 1px solid green;*/
-  box-sizing: border-box;
-}
 
-body {
-  width: 81vw;
-  margin: 0 auto;
-  box-sizing: border-box;
-  font-family: 'Cabin', serif;
-}
+
+
 
 // header {
 //   position: relative;
