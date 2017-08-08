@@ -13,3 +13,10 @@ header h2 {
   letter-spacing: .6em;
   width: 22vw;
   float: left; }
+
+header h3 {
+  display: inline-block;
+  width: 27vw;
+  float: left;
+  font-weight: 600;
+  font-size: .8em; }
