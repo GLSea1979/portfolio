@@ -7,3 +7,26 @@ body {
   box-sizing: border-box;
   font-family: 'Cabin', serif;
 }
+section {
+  min-height: 1vw;
+  width: 27vw;
+  float: left;
+}
+p {
+  margin: 1vw 0;
+  color: rgba(158, 158, 158, 1.0);
+  font-size: 1.6em;
+  padding-top: .2em;
+}
+span {
+  letter-spacing: .2em;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: .2em;
+  width: 100%;
+  font-size: 2.8vw;
+  font-weight: 900;
+}
+img {
+  width: 100%;
+}
