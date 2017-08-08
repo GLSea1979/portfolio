@@ -179,6 +179,23 @@ a:active {
   .primary-nav li {
     display: block; } }
 
+.logo {
+  font: 900 160px/1 'Source Sans Pro', Arial, sans-serif;
+  background: #fff;
+  text-transform: uppercase;
+  color: #000;
+  text-align: left;
+  letter-spacing: -3px;
+  padding-top: 2%;
+  padding-left: 2%; }
+
+.logo h6 {
+  text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 3px 0 #afb6b6, 0 4px 0 #a4adac, 0 5px 0 #9fa8a7, 0 6px 0 #99a3a2, 0 7px 0 #97a1a0, 0 8px 0 #949e9d, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3); }
+
+@media only screen and (max-width: 68.75em) {
+  .logo h6 {
+    display: none; } }
+
 .me {
   width: 23vw;
   float: right;
