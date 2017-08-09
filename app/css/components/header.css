@@ -2,34 +2,33 @@ header {
   position: relative;
   margin: 7vw 0;
   width: 100%;
-  height: 3vw;
-}
+  height: 3vw; }
+
 header h2 {
   display: inline-block;
-  text-transform: uppercase;;
+  text-transform: uppercase;
   font-size: 1.1em;
   margin: .5vw;
   font-style: italic;
   font-weight: 900;
   letter-spacing: .6em;
   width: 22vw;
-  float: left;
-}
+  float: left; }
+
 header h3 {
   display: inline-block;
   width: 27vw;
   float: left;
   margin: .5vw;
   font-weight: 600;
-  font-size: .8em;
-}
+  font-size: .8em; }
+
 header ul {
-  margin: .5vw;
-}
+  margin: .5vw; }
+
 header li {
   display: inline-block;
   float: right;
   margin-left: .5vw;
   font-size: 1em;
-  font-weight: 400;
-}
+  font-weight: 400; }
