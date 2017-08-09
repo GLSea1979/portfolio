@@ -8,6 +8,7 @@ header h2 {
   display: inline-block;
   text-transform: uppercase;
   font-size: 1.1em;
+  margin: .5vw;
   font-style: italic;
   font-weight: 900;
   letter-spacing: .6em;
@@ -18,8 +19,12 @@ header h3 {
   display: inline-block;
   width: 27vw;
   float: left;
+  margin: .5vw;
   font-weight: 600;
   font-size: .8em; }
+
+header ul {
+  margin: .5vw; }
 
 header li {
   display: inline-block;

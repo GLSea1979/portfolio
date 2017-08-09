@@ -1,2 +1,9 @@
-@import url('"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"');
-@import url('"https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet"')
+// ::::: Fonts ::::: //
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet');
+
+// ::::: Media Queries ::::: //
+$desktop: "only screen and (min-width : 769px)";
+$large-mobile: "only screen and (max-width: 768px)";
+$med-mobile: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 326px)";
