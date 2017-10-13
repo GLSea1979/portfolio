@@ -9,4 +9,4 @@ gulp.task('styles', function() {
 
 gulp.task('default', function() {
   gulp.watch('app/sass/**/*.scss', ['styles']);
-})
+});
